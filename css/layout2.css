@@ -226,3 +226,28 @@ body {
   display: block;
   margin-left: auto;
 }
+
+/* .flex-item {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 5px;
+}
+
+.flex-container {
+  display: flex;  가로 정렬 
+  justify-content: center;  가운데 정렬, 왼쪽,오른쪽,띄워놓기 등 다 가능 
+   flex-direction: column; 세로로 다시 정렬 
+  align-items: center;  상하 정렬 
+} */
+
+.flex-container {
+  background: pink;
+  display: flex;
+}
+
+.flex-item {
+  color: white;
+  font-size: 30px;
+  margin: 2px 15px 2px 15px;
+}
