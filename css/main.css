@@ -1,0 +1,69 @@
+.firstName {
+  font-size: 20px;
+  font-family: "gulim";
+  color: rgb(37, 12, 166);
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.img {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* p {
+  color: red;
+  font-weight: 500;
+} */
+
+.content {
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  background-color: rgb(236, 218, 13);
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 7px 7px 1px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  width: 800px;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  background: aquamarine;
+}
+
+.leftMenu {
+  width: 20%;
+  height: 400px;
+  background: cornflowerblue;
+  float: left;
+  /* display: inline-block; */
+}
+
+.rightMenu {
+  width: 80%;
+  height: 400px;
+  background: coral;
+  float: left;
+  /* display: inline-block; */
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: grey;
+  clear: both;
+}

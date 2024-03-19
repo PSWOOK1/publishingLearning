@@ -1,0 +1,98 @@
+div,
+input,
+textarea {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.cart-backGround {
+  background-color: rgb(150, 201, 209);
+  width: 70%;
+  height: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yourCart {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(36, 45, 91);
+  padding: 7% 7% 0% 7%;
+}
+
+.cart-white {
+  background-color: white;
+  border-radius: 5px;
+  width: 85%;
+  height: 370px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.topLineRemove td {
+  text-align: center;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.bottomLineRemove td {
+  border-bottom: none;
+}
+
+.EYSC {
+  margin: 3% 0% 0% 8%;
+  float: left;
+}
+
+.payBtn {
+  margin: 3% 11.5% 0% 0%;
+  float: right;
+}
+
+.payBtn input {
+  padding: 10%;
+  color: white;
+  background-color: navy;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+/*  */
+
+.Cart-backGround {
+  width: 100%;
+  background-color: #c2d3de;
+  padding: 30px;
+}
+
+.cart-table {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cart-table td {
+  padding: 15px;
+  border: 1px solid #c2d3de;
+}
+
+.cart-table td:nth-child(2) {
+  width: 400px;
+}
