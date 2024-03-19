@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "이쁜폰트~";
+  src: url(../font/NanumSquareR.woff);
+}
+
+@font-face {
+  font-family: "이쁜폰트2~";
+  font-weight: 800;
+  src: url(../font/NanumSquareEB.woff);
+}
+
 div,
 input,
 textarea {
@@ -6,7 +17,15 @@ textarea {
 
 body {
   margin: 0px;
+  /* gulim이 어떤 사유로 적용 불가하다면 dotum으로, 그것도 안되면 그 다음꺼로 순서대로 (안정성)
+  font-family: "gulim", "dotum", "arial"; */
+  font-family: "이쁜폰트2~";
 }
+
+/* 폰트 부드럽게 처리하려면 아주 약간회전 시키기 */
+/* body {
+  transform: rotate(0.03deg);
+} */
 
 .main-backGround {
   width: 100%;
