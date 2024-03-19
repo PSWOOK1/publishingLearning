@@ -108,13 +108,12 @@
       <div class="payBtn">
         <input type="button" value="Choose payment method" />
       </div>
-
-      <!--  Pseudo-class Seleter 연습 -->
-      <div>
-        <button class="btn">구매하기</button>
-        <input class="input-test" />
-        <a href="#" class="custom-link">링크</a>
-      </div>
+    </div>
+    <!--  Pseudo-class Seleter 연습 -->
+    <div>
+      <button class="btn">구매하기</button>
+      <input class="input-test" />
+      <a href="#" class="custom-link">링크</a>
     </div>
 
     <div class="Cart-backGround">
@@ -142,6 +141,18 @@
           <tr>
             <td colspan="5" style="text-align: right">총가격 : 7000</td>
           </tr>
+          <!-- OOCSS (Object Oriented CSS) -->
+          <button class="main-btn bg-red">더 알아보기</button>
+          <button class="main-btn bg-blue">구매하기</button>
+          <!-- 클래스 작명 Tip : BEM (Block__Element--modifier 룰 따라하기) -->
+          <!-- class="덩어리이름__역할--세부특징" -->
+          <div class="profile">
+            <img class="profile__img" />
+            <h4 class="profile__title"></h4>
+            <p class="profile__content"></p>
+            <button class="profile__button--red">버튼1</button>
+            <button class="profile__button--blue">버튼2</button>
+          </div>
         </tbody>
       </table>
     </div>
