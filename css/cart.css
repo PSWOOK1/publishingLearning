@@ -96,3 +96,55 @@ table {
 .cart-table td:nth-child(2) {
   width: 400px;
 }
+
+/* Pseudo-class Seleter 연습 */
+
+.btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+
+/* hover, focus, active 순서가 중요 */
+/* hofa 로 외우기 (호빠 ㅋ) */
+
+/* 버튼에 커서를 올렸을 때 */
+.btn:hover {
+  background-color: chocolate;
+}
+
+/* 버튼을 클릭한 후 */
+.btn:focus {
+  background-color: gray;
+}
+
+/* 버튼에 커서를 올린 후 클릭'중'일 때 */
+.btn:active {
+  background-color: brown;
+  /* border: 2px solid black; */
+}
+
+.input-test {
+  font-size: 20px;
+}
+
+.input-test:focus {
+  border: 2px solid rgb(59, 253, 53);
+}
+
+.custom-link {
+  text-decoration: none;
+}
+
+/* 방문 전 링크 스타일 */
+.custom-link:link {
+  color: skyblue;
+}
+/* 방문 후 링크 스타일 */
+.custom-link:visited {
+  color: rgb(241, 12, 12);
+}
