@@ -251,3 +251,28 @@ body {
   font-size: 30px;
   margin: 2px 15px 2px 15px;
 }
+
+/* media query 문법 */
+/* breakpoint 기준 px값은 대중적인 단위 참고해서 사용 */
+/* breakpoint : media query 문법 max-width 안에 넣는 브라우저 폭 */
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+
+  .flex-item {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 15px;
+  }
+}
+
+@media print and (max-width: 576px) {
+  .main-title {
+    font-size: 15px;
+  }
+}
