@@ -11,8 +11,19 @@
   font-weight: 700;
 }
 
+.main-item i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  color: white;
+}
+
 /* chatGPT.. 수정예정 */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -20,9 +31,16 @@
   }
 
   .main-item {
-    width: calc(50% - 30px); /* 각 아이템의 너비를 조정합니다 */
-    margin: 15px; /* 여백 조정을 유지합니다 */
-    box-sizing: border-box; /* 너비 계산 방식을 유지합니다 */
+    width: calc(50% - 30px);
+    margin: 15px; 
+    box-sizing: border-box;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 50%;
+    flex-wrap: wrap;
   }
 }
 
