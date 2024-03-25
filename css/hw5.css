@@ -9,65 +9,123 @@ body {
   background-color: #e9f2ff;
 }
 
+.background {
+  width: 90%;
+  margin: 2% auto;
+}
+
 .main-container {
   border: solid 1px rgba(128, 128, 128, 0.411);
   border-radius: 10px;
   background-color: white;
 
-  width: 90%;
+  width: 100%;
   height: 40%;
   display: flex;
   align-items: center;
-  margin: 5% auto 5% auto;
+  padding: 3%;
 }
 
-.sun {
+/* .sun {
   width: 15px;
   height: 50px;
   opacity: 0.5;
   background-color: grey;
-}
+} */
 
 .my-1 {
   font-weight: 600;
+  margin: 0 0 0 auto;
 }
 
-.my-1 p {
-  padding: 0 0 0 80%;
-}
+/* .my-1 p {
+   padding: 0 0 0 80%; 
+} */
 
 .my-2 {
-  padding: 0 0 0 5%;
+  padding: 0 2% 0 5%;
 }
 
 .serve-title {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  margin: 2% auto;
+  display: flex;
 }
 
 .one {
   background-color: white;
+  border: solid 1px rgba(128, 128, 128, 0.411);
   border-radius: 10px;
-  width: 15%;
+  width: 20%;
   height: 50vh;
   padding: 2%;
-  margin: 0 1% 0 0;
 }
 
 .two {
   background-color: white;
+  border: solid 1px rgba(128, 128, 128, 0.411);
   border-radius: 10px;
-  width: 65%;
+  width: 60%;
   padding: 2%;
+  margin: 0 1% 0 1%;
 }
 
 hr {
   opacity: 0.5;
   border-color: grey;
-  margin: 10% 10%;
+  margin: 10% 0;
+  width: auto;
+}
+
+.two h2 {
+  margin-bottom: 5%;
+}
+
+.two span {
+  border-radius: 20px;
+  margin: 1% 0.5% 1% 0;
+  padding: 0.5% 2.5%;
 }
 
 .three {
-  width: 15%;
-  padding: 2%;
+  border-radius: 10px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.three-sign-up {
+  border: solid 1px rgba(128, 128, 128, 0.411);
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  padding: 10%;
+}
+
+.three i {
+  color: #6fbaf8;
+  margin-bottom: 10%;
+}
+
+.three button {
+  color: white;
+  background-color: #6fbaf8;
+  width: 100%;
+  margin: 10% 0 3% 0;
+}
+
+.people {
+  margin-top: 15%;
+}
+
+.person {
+  margin: 5% 0;
+}
+
+.person p {
+  margin: 0 0 3px 0;
 }
