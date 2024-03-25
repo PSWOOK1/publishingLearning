@@ -131,15 +131,23 @@ body {
   width: 50%;
   height: 28vw;
   color: white;
+}
+
+.main-PF-item-text {
   padding: 6%;
 }
 
-.main-PF-item:hover {
-  width: 35vw;
-  height: 25vw;
-  margin: auto;
-
+.overlay:hover {
+  border: solid 2vw white;
+  opacity: 1;
   transition: all 1s;
+}
+
+.overlay {
+  width: auto;
+  height: 28vw;
+  padding: 6%;
+  opacity: 0;
 }
 
 .main-PF-item:nth-child(1) {
