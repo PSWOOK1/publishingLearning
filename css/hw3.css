@@ -43,6 +43,7 @@ body {
   background-color: rgba(75, 75, 75, 0.963);
   color: white;
   margin: 50px 0 0 0;
+  border: none;
 }
 
 .main-show {
@@ -63,6 +64,7 @@ body {
   border-radius: 10px;
   background-color: rgba(75, 75, 75, 0.963);
   color: white;
+  border: none;
 }
 
 .main-my {
