@@ -22,7 +22,7 @@ body {
   font-family: "이쁜폰트2~";
 }
 
-/* 폰트 부드럽게 처리하려면 아주 약간회전 시키기 */
+/* 폰트 부드럽게 처리하려면 '아주 약간' 회전 시키기 */
 /* body {
   transform: rotate(0.03deg);
 } */
@@ -30,7 +30,7 @@ body {
 .main-backGround {
   width: 100%;
   height: 500px;
-  background-image: url(/g);
+  background-image: url(/img/shoes.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -301,6 +301,30 @@ body {
 .overlay:hover {
   opacity: 0.5;
 } */
+
+/* pseudo-element (딱 무언가 찝어서 수정 가능) / pseudo-class 친척 */
+.main-content::first-letter {
+  color: rgb(51, 255, 0);
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.main-content::after {
+  content: "!";
+  color: rgb(209, 255, 43);
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.input-file::file-selector-button {
+  background-color: skyblue;
+  border: none;
+  padding: 20px;
+}
+/* pseudo-element 에 추가로 pseudo-class 가능 */
+.input-file::file-selector-button:hover {
+  background: purple;
+}
 
 /* media query 문법 */
 /* breakpoint 기준 px값은 대중적인 단위 참고해서 사용 */
